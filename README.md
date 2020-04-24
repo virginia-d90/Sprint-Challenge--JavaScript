@@ -40,9 +40,14 @@ Edit this document to include your answers after each question. Make sure to lea
     
     1.window binding-if no other rules apply "this" defaults to the global scope
     2.implicit binding-look to the left of the dot when function is invoked
-    3. explicit binding- uses call, apply and bind. call/apply immediately invoke function
-    4. new binding
+    3. explicit binding- uses call, apply and bind. call/apply immediately invoke function bind does not.
+    4. new binding- uses 'new' keyword which constructs a new object and 'this' points to the new object that is created
+
 5. Why do we need super() in an extended class?
+
+    it binds the attributes of the parent to the child
+
+
 
 ### Task 1 - Project Set up
 
